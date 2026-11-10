@@ -1,0 +1,33 @@
+{# Shared fields for the lost and found forms. Expects: values, errors, categories, station_names, today, kind #}
+<div class="field {% if errors.description %}has-error{% endif %}">
+  <label for="description">{{ 'Describe your item' if kind == 'lost' else 'Describe the item you found' }}</label>
+  <textarea id="description" name="description" rows="3" maxlength="300" required
+            aria-describedby="description-hint{% if errors.description %} description-error{% endif %}"
+            placeholder="{{ 'Black leather wallet with a college ID and two bank cards' if kind == 'lost' else 'Black leather purse with an ID card and some debit cards' }}">{{ values.get('description', '') }}</textarea>
+  <p class="hint" id="description-hint">Colour, type, brand and anything distinctive. Leave out names and ID numbers; staff will check those at the desk.</p>
+  {% if errors.description %}<p class="error" id="description-error">{{ errors.description }}</p>{% endif %}
+</div>
+
+<div class="field">
+  <label for="category">Category</label>
+  <select id="category" name="category">
+    {% for c in categories %}<option value="{{ c }}" {% if values.get('category', 'Not sure') == c %}selected{% endif %}>{{ c }}</option>{% endfor %}
+  </select>
+</div>
+
+<div class="field {% if errors.station %}has-error{% endif %}">
+  <label for="station">{{ 'Station where you lost it (or the nearest one)' if kind == 'lost' else 'Station where you found it or handed it in' }}</label>
+  <input id="station" name="station" list="station-list" autocomplete="off" required
+         value="{{ values.get('station', '') }}" placeholder="Start typing, for example Hauz Khas"
+         aria-describedby="station-lines{% if errors.station %} station-error{% endif %}">
+  <datalist id="station-list">{% for s in station_names %}<option value="{{ s }}">{% endfor %}</datalist>
+  <div id="station-lines" class="pills" aria-live="polite"></div>
+  {% if errors.station %}<p class="error" id="station-error">{{ errors.station }}</p>{% endif %}
+</div>
+
+<div class="field {% if errors.date %}has-error{% endif %}">
+  <label for="date">{{ 'Date you lost it' if kind == 'lost' else 'Date you found it' }}</label>
+  <input id="date" name="date" type="date" max="{{ today }}" required value="{{ values.get('date', today) }}"
+         {% if errors.date %}aria-describedby="date-error"{% endif %}>
+  {% if errors.date %}<p class="error" id="date-error">{{ errors.date }}</p>{% endif %}
+</div>

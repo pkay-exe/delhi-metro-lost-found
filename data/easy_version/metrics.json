@@ -1,0 +1,97 @@
+{
+ "cross_validation": {
+  "Logistic Regression": {
+   "accuracy": 0.9712500000000001,
+   "precision": 0.9621727543868268,
+   "recall": 0.98125,
+   "f1": 0.9715614392033434
+  },
+  "SVM": {
+   "accuracy": 0.9737499999999999,
+   "precision": 0.9578850052758829,
+   "recall": 0.9912500000000002,
+   "f1": 0.974251265878711
+  },
+  "Random Forest": {
+   "accuracy": 0.9775,
+   "precision": 0.9683014551881323,
+   "recall": 0.9875,
+   "f1": 0.9777575815203295
+  }
+ },
+ "test": {
+  "Logistic Regression": {
+   "accuracy": 0.95,
+   "precision": 0.9455445544554455,
+   "recall": 0.955,
+   "f1": 0.9502487562189055
+  },
+  "SVM": {
+   "accuracy": 0.955,
+   "precision": 0.946078431372549,
+   "recall": 0.965,
+   "f1": 0.9554455445544554
+  },
+  "Random Forest": {
+   "accuracy": 0.9575,
+   "precision": 0.9507389162561576,
+   "recall": 0.965,
+   "f1": 0.9578163771712159
+  }
+ },
+ "retrieval": {
+  "Logistic Regression": {
+   "model_only_top1": 0.8633333333333333,
+   "model_only_top5": 0.98,
+   "blend_top1": 0.8833333333333333,
+   "blend_top5": 0.9833333333333333
+  },
+  "SVM": {
+   "model_only_top1": 0.7966666666666666,
+   "model_only_top5": 0.9833333333333333,
+   "blend_top1": 0.9,
+   "blend_top5": 0.98
+  },
+  "Random Forest": {
+   "model_only_top1": 0.88,
+   "model_only_top5": 0.9966666666666667,
+   "blend_top1": 0.9133333333333333,
+   "blend_top5": 0.99
+  }
+ },
+ "weight_search": {
+  "model only": {
+   "top1": 0.845,
+   "top5": 0.96
+  },
+  "default": {
+   "top1": 0.865,
+   "top5": 0.96
+  },
+  "text heavy": {
+   "top1": 0.855,
+   "top5": 0.97
+  },
+  "location heavy": {
+   "top1": 0.815,
+   "top5": 0.96
+  },
+  "balanced": {
+   "top1": 0.86,
+   "top5": 0.96
+  },
+  "model heavy": {
+   "top1": 0.86,
+   "top5": 0.955
+  }
+ },
+ "score_stats": {
+  "true_item_median": 0.8155988572204365,
+  "true_item_share_ge_0.70": 0.85,
+  "true_item_share_ge_0.50": 0.9466666666666667,
+  "other_items_share_ge_0.70": 0.001,
+  "other_items_share_ge_0.50": 0.0051333333333333335
+ },
+ "n_train": 2000,
+ "n_found": 500
+}

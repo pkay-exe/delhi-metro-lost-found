@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}Found items | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="page-head">
+  <h1>Found items</h1>
+  <form class="filters" method="get" action="{{ url_for('browse') }}">
+    <div class="field">
+      <label for="line">Line</label>
+      <select id="line" name="line">
+        <option value="">All lines</option>
+        {% for name in lines %}<option value="{{ name }}" {% if line == name %}selected{% endif %}>{{ name }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="field">
+      <label for="category">Category</label>
+      <select id="category" name="category">
+        <option value="">All categories</option>
+        {% for c in categories %}<option value="{{ c }}" {% if category == c %}selected{% endif %}>{{ c }}</option>{% endfor %}
+      </select>
+    </div>
+    <div class="field grow">
+      <label for="q">Station or word</label>
+      <input id="q" name="q" value="{{ q }}" placeholder="Hauz Khas, wallet, black">
+    </div>
+    <button class="btn" type="submit">Filter</button>
+  </form>
+  <p class="muted">{{ total }} {{ 'item' if total == 1 else 'items' }}{% if line or category or q %} match your filters{% endif %}, newest first.</p>
+</section>
+
+{% if rows %}
+<ul class="found-list">
+  {% for r in rows %}
+  <li>
+    <div class="found-main">
+      <h2>{{ r.description }}</h2>
+      <p class="muted">{{ r.item_id }}, {{ r.category }}</p>
+    </div>
+    <div class="found-where">
+      <p>{{ r.station }}</p>
+      <p>{% for p in line_pills(r.station) %}<span class="pill" style="--c:{{ p.color }};--k:{{ p.ink }}">{{ p.name }}</span>{% endfor %}</p>
+      <p class="muted">Found {{ r.found_on }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="notice">Nothing matches those filters. Clear a filter, or try a shorter word.</p>
+{% endif %}
+
+{% if pages > 1 %}
+<nav class="pager" aria-label="Pages">
+  {% if page > 1 %}<a href="{{ url_for('browse', page=page-1, **args) }}">Previous page</a>{% endif %}
+  <span>Page {{ page }} of {{ pages }}</span>
+  {% if page < pages %}<a href="{{ url_for('browse', page=page+1, **args) }}">Next page</a>{% endif %}
+</nav>
+{% endif %}
+{% endblock %}

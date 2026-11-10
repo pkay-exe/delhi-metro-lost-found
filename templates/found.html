@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Report a found item | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="narrow">
+  <h1>Found something on the Metro?</h1>
+  <p class="lead">Hand it to the Customer Care desk at the nearest station, then list it here so its owner can find it.</p>
+  <form class="panel report" method="post" action="{{ url_for('found') }}" novalidate>
+    {% set kind = 'found' %}
+    {% include "_report_fields.html" %}
+    <div class="actions"><button class="btn" type="submit">List this item</button></div>
+  </form>
+  <p class="muted fine">Phone numbers, e-mail addresses and long digit strings are hidden automatically before anything is saved.</p>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>window.STATION_LINES = {{ station_lines | tojson }};</script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}

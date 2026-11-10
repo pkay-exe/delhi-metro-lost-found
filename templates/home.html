@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Lost something on the Delhi Metro? | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="hero-copy">
+    <h1>Lost something on the Delhi Metro?</h1>
+    <p class="lead">Describe it and say where you lost it. We rank the found items that fit best and show how many stops away each one was handed in.</p>
+    <p class="muted">{{ n_found }} found items are listed right now. New ones are added through the day, so your report keeps searching.</p>
+    <p><a class="textlink" href="{{ url_for('found') }}">Found something that is not yours? Report it here.</a></p>
+  </div>
+
+  <form class="panel report" method="post" action="{{ url_for('lost') }}" id="lost-form" novalidate>
+    <h2>Report your lost item</h2>
+    {% set kind = 'lost' %}
+    {% include "_report_fields.html" %}
+    <div class="actions">
+      <button class="btn" type="submit">Find my item</button>
+      <button class="btn-quiet" type="button" id="fill-example">Fill an example</button>
+    </div>
+  </form>
+</section>
+
+<section class="steps">
+  <h2>How a match is ranked</h2>
+  <ol>
+    <li><strong>Read the words.</strong> Both descriptions are cleaned and compared, so "BLACK purse!!" and "black wallet" still line up on colour and contents.</li>
+    <li><strong>Count the stops.</strong> The distance between the two stations is measured on the Metro network, and an item found before you lost it is ruled out.</li>
+    <li><strong>Rank the candidates.</strong> A trained model combines the clues into one score. A high score is a strong lead, not proof, so staff verify ownership at the desk.</li>
+  </ol>
+  <p><a class="textlink" href="{{ url_for('about') }}">See the model, the numbers and the limits</a></p>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  window.STATION_LINES = {{ station_lines | tojson }};
+</script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}

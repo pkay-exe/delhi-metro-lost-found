@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Check a report | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="narrow">
+  <h1>Check your report</h1>
+  <p class="lead">Enter the reference code you received when you reported the loss. We search again against the latest found items.</p>
+  <form class="panel" method="post" action="{{ url_for('status_lookup') }}">
+    <div class="field {% if error %}has-error{% endif %}">
+      <label for="ref">Reference code</label>
+      <input id="ref" name="ref" value="{{ ref }}" placeholder="LR-7K2M9Q" autocomplete="off" required
+             {% if error %}aria-describedby="ref-error"{% endif %}>
+      {% if error %}<p class="error" id="ref-error">{{ error }}</p>{% endif %}
+    </div>
+    <div class="actions"><button class="btn" type="submit">Check for matches</button></div>
+  </form>
+</section>
+{% endblock %}

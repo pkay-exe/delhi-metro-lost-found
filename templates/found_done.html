@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Item listed | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="narrow">
+  <h1>Item {{ code }} is listed</h1>
+  <div class="panel">
+    <dl class="facts">
+      <div><dt>Description</dt><dd>{{ values.description }}</dd></div>
+      <div><dt>Category</dt><dd>{{ values.category }}</dd></div>
+      <div><dt>Station</dt><dd>{{ values.station }} {% for p in line_pills(values.station) %}<span class="pill" style="--c:{{ p.color }};--k:{{ p.ink }}">{{ p.name }}</span>{% endfor %}</dd></div>
+    </dl>
+  </div>
+  <p class="notice good">Next step: hand the item to the Customer Care desk at {{ values.station }} and quote {{ code }}.</p>
+  {% if similar %}
+    <p>{{ similar }} open lost {{ 'report looks' if similar == 1 else 'reports look' }} like this item. Staff can check any claim against {{ 'it' if similar == 1 else 'them' }}.</p>
+  {% else %}
+    <p>No open lost report is a close match yet. If an owner reports it later, they will see it in their results.</p>
+  {% endif %}
+  <p class="actions-row"><a class="btn" href="{{ url_for('found') }}">List another item</a> <a class="textlink" href="{{ url_for('browse') }}">See all found items</a></p>
+</section>
+{% endblock %}

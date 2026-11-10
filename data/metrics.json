@@ -1,0 +1,116 @@
+{
+ "mode": "strict",
+ "cross_validation": {
+  "Logistic Regression": {
+   "accuracy": 0.8629394043258982,
+   "precision": 0.8304049692510288,
+   "recall": 0.9086108199629122,
+   "f1": 0.8675772009208824
+  },
+  "SVM": {
+   "accuracy": 0.8560033092521924,
+   "precision": 0.8102092298694373,
+   "recall": 0.9263887769088124,
+   "f1": 0.8642489765509108
+  },
+  "Random Forest": {
+   "accuracy": 0.8459067253361108,
+   "precision": 0.8332386058088869,
+   "recall": 0.8614931871321454,
+   "f1": 0.8470369683696684
+  }
+ },
+ "test": {
+  "Logistic Regression": {
+   "accuracy": 0.8804878048780488,
+   "precision": 0.853448275862069,
+   "recall": 0.9295774647887324,
+   "f1": 0.8898876404494382
+  },
+  "SVM": {
+   "accuracy": 0.8707317073170732,
+   "precision": 0.8333333333333334,
+   "recall": 0.9389671361502347,
+   "f1": 0.8830022075055187
+  },
+  "Random Forest": {
+   "accuracy": 0.8707317073170732,
+   "precision": 0.8636363636363636,
+   "recall": 0.892018779342723,
+   "f1": 0.8775981524249422
+  }
+ },
+ "retrieval": {
+  "Logistic Regression": {
+   "model_only_top1": 0.72,
+   "model_only_top5": 0.8933333333333333,
+   "blend_top1": 0.7666666666666667,
+   "blend_top5": 0.93
+  },
+  "SVM": {
+   "model_only_top1": 0.75,
+   "model_only_top5": 0.9,
+   "blend_top1": 0.8066666666666666,
+   "blend_top5": 0.9166666666666666
+  },
+  "Random Forest": {
+   "model_only_top1": 0.6433333333333333,
+   "model_only_top5": 0.8466666666666667,
+   "blend_top1": 0.7533333333333333,
+   "blend_top5": 0.9133333333333333
+  }
+ },
+ "precision_at_1_in_21": {
+  "Logistic Regression": 0.21216670474201235,
+  "SVM": 0.18779790276453764,
+  "Random Forest": 0.22653271197724384
+ },
+ "settings": {
+  "hard_share": 0.45,
+  "hard_same_color": 0.28,
+  "twin_share": 0.03,
+  "color_confusion": 0.06,
+  "vague_share": 0.07,
+  "drop_feat": 0.25,
+  "neg_near_station": 0.55,
+  "lost_cat_unknown": 0.08,
+  "lost_cat_wrong": 0.04,
+  "found_cat_unknown": 0.07,
+  "found_cat_wrong": 0.03
+ },
+ "weight_search": {
+  "model only": {
+   "top1": 0.69,
+   "top5": 0.87
+  },
+  "default": {
+   "top1": 0.77,
+   "top5": 0.905
+  },
+  "text heavy": {
+   "top1": 0.75,
+   "top5": 0.895
+  },
+  "location heavy": {
+   "top1": 0.76,
+   "top5": 0.91
+  },
+  "balanced": {
+   "top1": 0.765,
+   "top5": 0.905
+  },
+  "model heavy": {
+   "top1": 0.755,
+   "top5": 0.87
+  }
+ },
+ "score_stats": {
+  "true_item_median": 0.7381537627792499,
+  "true_item_share_ge_0.70": 0.5766666666666667,
+  "true_item_share_ge_0.50": 0.8866666666666667,
+  "other_items_share_ge_0.70": 0.0002,
+  "other_items_share_ge_0.50": 0.004333333333333333
+ },
+ "n_train": 2000,
+ "n_found": 500
+}

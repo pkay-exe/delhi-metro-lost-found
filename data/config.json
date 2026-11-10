@@ -1,0 +1,11 @@
+{
+ "weights": {
+  "model": 0.55,
+  "text": 0.25,
+  "location": 0.12,
+  "time": 0.08
+ },
+ "weights_name": "default",
+ "model": "Logistic Regression",
+ "mode": "strict"
+}

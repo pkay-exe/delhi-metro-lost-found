@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Matches for {{ rep.ref }} | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="page-head">
+  <h1>Possible matches for your report</h1>
+  <div class="panel summary">
+    <dl class="facts">
+      <div><dt>Reference code</dt><dd class="ref">{{ rep.ref }}</dd></div>
+      <div><dt>You reported</dt><dd>{{ rep.description }}</dd></div>
+      <div><dt>Lost near</dt><dd>{{ rep.station }} {% for p in line_pills(rep.station) %}<span class="pill" style="--c:{{ p.color }};--k:{{ p.ink }}">{{ p.name }}</span>{% endfor %}</dd></div>
+      <div><dt>Date</dt><dd>{{ lost_on }}</dd></div>
+    </dl>
+    <p class="muted">Save your reference code. New found items arrive all the time, and <a href="{{ url_for('status_lookup') }}">checking again</a> re-runs the search against the latest list.</p>
+  </div>
+
+  {% if strong == 0 %}
+  <p class="notice">No strong match yet. The closest candidates are below. Check back later with your reference code, or <a href="{{ url_for('browse') }}">browse all found items</a>.</p>
+  {% else %}
+  <p class="notice good">{{ strong }} strong {{ 'match' if strong == 1 else 'matches' }} found. Check the details below before you travel to collect.</p>
+  {% endif %}
+</section>
+
+<ol class="matches">
+  {% for m in matches %}
+  <li class="match">
+    <div class="match-head">
+      <span class="badge {{ 'strong' if m.label == 'Strong match' else 'possible' if m.label == 'Possible match' else 'weak' }}">{{ m.label }}</span>
+      <span class="score">Score {{ '%.1f' | format(m.score10) }} out of 10</span>
+    </div>
+    <h2>{{ m.description }}</h2>
+    <dl class="facts compact">
+      <div><dt>Item</dt><dd>{{ m.item_id }}, {{ m.category }}</dd></div>
+      <div><dt>Found</dt><dd>{{ m.found_on }}</dd></div>
+      <div><dt>Handed in at</dt><dd>{{ m.station }} {% for p in line_pills(m.station) %}<span class="pill" style="--c:{{ p.color }};--k:{{ p.ink }}">{{ p.name }}</span>{% endfor %}</dd></div>
+    </dl>
+
+    <div class="route-wrap">
+      {% if m.hops == 0 %}
+        <p class="route-caption">Handed in at the station where you lost it.</p>
+      {% else %}
+        <div class="route" role="img"
+             aria-label="Route of {{ m.route['stops'] | length - 1 }} stops from {{ values.station }} to {{ m.station }}">
+          {% for it in m.route['parts'] %}
+            {% if it.t == 'stop' %}<span class="stop {{ 'end' if it.end }}" title="{{ it.name }}"></span>
+            {% elif it.t == 'seg' %}<span class="seg" style="--c:{{ it.color }}"></span>
+            {% else %}<span class="gap" title="{{ it.hidden }} more stops"></span>{% endif %}
+          {% endfor %}
+        </div>
+        <div class="route-labels">
+          <span>{{ values.station }}</span>
+          <span class="stops-count">{{ m.route['stops'] | length - 1 }} stop{{ '' if m.route['stops'] | length == 2 else 's' }}</span>
+          <span>{{ m.station }}</span>
+        </div>
+        <details>
+          <summary>Show the route</summary>
+          <p class="route-lines">{% for p in m.route_lines %}<span class="pill" style="--c:{{ p.color }};--k:{{ p.ink }}">{{ p.name }}</span>{% endfor %}</p>
+          <p class="route-list">{{ m.route['stops'] | join(', ') }}</p>
+        </details>
+      {% endif %}
+    </div>
+
+    <p class="why"><strong>Why it ranks here:</strong> {{ m.reasons | join('; ') }}.</p>
+    <p class="collect">Collect from the Customer Care desk at {{ m.station }}. Bring a photo ID and be ready to describe details that are not shown here.</p>
+  </li>
+  {% endfor %}
+</ol>
+<p class="muted fine">The score out of 10 blends the model's match probability, text similarity, distance in stops and timing. 7 or more is a strong match and 5 or more a possible one, unless the two reports name different categories, which caps it at weak. It ranks candidates; it is not a calibrated probability.</p>
+{% endblock %}

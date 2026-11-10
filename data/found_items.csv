@@ -1,0 +1,501 @@
+item_id,description,category,station,days_ago
+F001,Found a blue smartwatch near the escalator@@,Watch or jewellery,Chhatarpur,5
+F002,white key bunch found near the stairs,Keys,Pandit Shree Ram Sharma,2
+F003,someone left a blue duffle bag having belt strap,Clothing,Anand Vihar,0
+F004,someone  left a metallic folding umbrella having wooden handle,Umbrella,Dwarka Sector 21,7
+F005,Someone left a pink VIP trolley bag having combination lock,Luggage,Jaffrabad,5
+F006,SOMEONE LEFT A BLUE PUMA BILLFOLD HAVING ID ACRD,Wallet,Kashmere Gate,10
+F007,"BLACK GLASSES FOUND, IT HAS HARD CASE",Glasses,Seelampur,14
+F008,"Picked up a metallic water bottle, two compartments...",Bottle or tiffin,Gokulpuri,5
+F009,"BLUE LAPTOP BAG FOUND, IT HAS NOTEBOOKS",Bag,Lajpat Nagar,9
+F010,Found a blue laptop with cahrger and black sleeve near the escalator!!!,Laptop or tablet,Govind Puri,2
+F011,Found silver card holder containing photo ID on a seat,ID or metro card,Samaypur Badli,2
+F012,"maroon Fossil watch found, it has metal strap and round dial near the security check!!!",Not sure,Chirag Delhi,4
+F013,Found a silver phone with black cover and cracked screen,Phone,Palam,3
+F014,FOUND A EYEGALSSES ON THE TRAIN,Glasses,Rajiv Chowk,5
+F015,"grey spectacles found, it has blue frame on the platform",Glasses,Old Faridabad,2
+F016,Found red water bottle containing food inside and insulated,Bottle or tiffin,Panchsheel Park,4
+F017,"WHITE SAFARI SLING BAG FOUND ON SEAT, LAPTOP INSIDE NEAR THE STAIRS",Bag,Karkarduma,6
+F018,"Picked up a red wristwatch, round dial",Watch or jewellery,Rajiv Chowk,2
+F019,"Picked up a dark red trolley bag, hard shell",Luggage,Okhla Bird Sanctuary,1
+F020,"gray spectacles found, it has hard case near the stairs",Glasses,Shivaji Stadium,1
+F021,"dark blue Acer notebook computer found, it has sticker on the lid and black sleeve!!",Laptop or tablet,Nehru Place,2
+F022,Someone left a metalilc folding umbrella having wooden handle in the women's coach,Umbrella,Anand Vihar,8
+F023,Found red keychain containing three keys and bike key!!,Keys,Dilli Haat INA,4
+F024,"whtie Asus laptop found on seat, scratches",Laptop or tablet,Raja Nahar Singh,6
+F025,"PICKED  UP A RED DUPATTA, POCKET ON THE TRAIN",Clothing,Mewala Maharajpur,0
+F026,Someone left a blue dupatta having pocket and woollen near the stairs!!,Not sure,Munirka,2
+F027,Found a green spectacles near the ticket counter,Glasses,Karol Bagh,8
+F028,Found gray charging cable containing white cable in the ilft,Charger or power bank,Model Town,11
+F029,"Picked up a green charger, type C cable",Charger or power bank,HUDA City Centre,5
+F030,"blue cell phone found on seat, sticker on the back on a seat",Phone,Jasola Apollo,6
+F031,WHITE TIFFIN BOX FOUND,Bottle or tiffin,Sadar Bazar Cantonment,5
+F032,FOUND A GRAY JBL EARBUDS WITH BLACK CASE,Not sure,HUDA City Centre,11
+F033,Found a pink keychain@@,Keys,Kashmere Gate,8
+F034,Found a grey duffle bag with combination lock and hard shell!!,Luggage,South Extension,6
+F035,someone left a yellow umbrella having floral print and plastic cover,Not sure,Shankar Vihar,2
+F036,"white wristwatch found on seat, round dial@@",Watch or jewellery,Dilshad Garden,0
+F037,Found yellow Apple laptop containing college name sticker and scratches!!!,Laptop or tablet,Netaji Subhash Place,0
+F038,found silver tablet containing charger!!!,Laptop or tablet,Supreme Court,1
+F039,Found a grey notebook with handwritten notes and plastic folder,Books or documents,Sarai,0
+F040,SOMEONE LEFT A BLACK VINCENT CHASE GLASSES HAVING BLACK FRAME AND HARD CASE,Glasses,Mewala Maharajpur,1
+F041,Found a blue laptop with scratches,Laptop or tablet,Punjabi Bagh West,14
+F042,"yellow handbag found, it has keychain on the zip in the lift",Bag,Hauz Khas,12
+F043,Found a gray billofld near the ticket counter,Wallet,Dabri Mor,0
+F044,"green  keychain found, it has house keys on a seat",Keys,Sadar Bazar Cantonment,8
+F045,someone left a black anker charging cable having 10000 mah and black adapter,Charger or power bank,Noida Sector 18,2
+F046,SOMEONE LEFT A NAVY SCARF HAVING LABEL INSIDE,Clothing,Janakpuri West,3
+F047,"Picked up a green Cello water bottle, steel body near the ticket counter",Bottle or tiffin,Netaji Subhash Place,4
+F048,found a black casio wristwatch in the women's coach,Watch or jewellery,Kirti Nagar,6
+F049,someone  left a red iphone cell phone having cracked screen@@,Phone,Shivaji Stadium,9
+F050,"pink sunglasses found on seat, black frame and hard case",Glasses,Chirag Delhi,2
+F051,Found a green folder,Not sure,Jamia Millia Islamia,11
+F052,"grey Cello lunch box found on seat, insulated",Bottle or tiffin,Dwarka Sector 14,0
+F053,"METALLIC SONY HEADPHONES FOUND ON SEAT, WIRED CABLE",Not sure,Rajendra Place,12
+F054,"grey cell phone found, it has transparent case in the lift",Phone,Jahangirpuri,11
+F055,"dark blue Apple laptop found on seat, college name sticker",Laptop or tablet,Mundka,5
+F056,SOMEONE LEFT A RED FOLDING UMBRELLA HAVING WOODEN HANDLE AND PLASTIC COVER,Umbrella,GTB Nagar,9
+F057,Found a white Sony wireless earbuds in the women's coach,Earphones,Dwarka Sector 10,12
+F058,Found dark red card holder containing some cash,Wallet,Lajpat Nagar,5
+F059,Found a blue Titan sunglasses with blue frame in the women's coach,Glasses,Kalkaji Mandir,5
+F060,found a red cell phone,Phone,Netaji Subhash Place,4
+F061,charging  cable found near the security check,Charger or power bank,Azadpur,1
+F062,Someone left a dark blue eyeglasses having black frame and blue frame!!,Glasses,Sant Surdas,7
+F063,Found a black smartphone with cracked screen,Phone,Karol Bagh,2
+F064,"brown iPhone smartphone found on seat, sticker on the back",Not sure,JLN Stadium,5
+F065,"WHITE  WALLET FOUND, IT HAS ZIPPER POCKET NEAR THE STAIRS",Wallet,Brigadier Hoshiyar Singh,10
+F066,Someone left a black Vincent Chase eyeglasses having blue frame and black frame,Not sure,Krishna Nagar,8
+F067,"PICKED UP A YELLOW PHONE, CRACKED SCREEN",Phone,Harkesh Nagar Okhla,2
+F068,Found  pink glasses cnotaining round lens and hard case,Glasses,Samaypur Badli,1
+F069,"pink glasses found, it has blue frame and round lens",Glasses,Dilli Haat INA,1
+F070,"maroon phone found on seat, lock screen photo!!",Phone,Okhla NSIC,4
+F071,yellow tiffin box found,Bottle or tiffin,Ashram,5
+F072,someone left a silver tiffin box having steel body near the ticket counter,Bottle or tiffin,Jasola Apollo,3
+F073,"silver Milton water bottle found on seat, blue lid on the trian",Bottle or tiffin,Sector 28 Faridabad,1
+F074,Found a brown wireless earbuds in the women's coach,Earphones,Rithala,3
+F075,Found a blue Cello itffin box with steel body in the lift,Bottle or tiffin,Arjan Garh,4
+F076,"Picked up a green trolley bag, combination lock",Luggage,Bhikaji Cama Place,7
+F077,"maroon  key bunch found on seat, bike key and three keys!!!",Keys,Jangpura,9
+F078,FOUND A METALLIC SPECTACLES,Glasses,Dashrath Puri,6
+F079,"BROWN PUMA WALLET FOUND, IT HAS METRO CARD@@",Wallet,Dilli Haat INA,9
+F080,FOUND BROWN JACKET CONTAINING POCKET,Clothing,Azadpur,3
+F081,FOUND A PURSE...,Wallet,Shaheed Nagar,1
+F082,black smartwatch found #urgent,Watch or jewellery,Tilak Nagar,1
+F083,"brown watch found, it has leather strap and digital display on the train",Watch or jewellery,Tughlakabad,14
+F084,Found a green trolley bag with four wheels,Luggage,Akshardham,1
+F085,card holder found on the platform,ID or metro card,Kalkaji Mandir,0
+F086,"yellow Hidesign billfold found, it has driving licence and bank cards",Wallet,Welcome,1
+F087,"GREY EARBUDS FOUND, IT HAS SCRATCHED CASE",Earphones,Janakpuri West,4
+F088,Found  a gray smartphone with sticker on the back,Not sure,Rajouri Garden,3
+F089,"green card holder found on seat, college id",Wallet,Paschim Vihar East,3
+F090,someone left a white key bunch having remote lock,Keys,Green Park,5
+F091,found blue ray-ban spectacles containing cloth pouch and blue frame,Glasses,Dwarka Mor,4
+F092,Found  a pink billfold...,Wallet,Delhi Cantt,1
+F093,"green duffle bag found on seat, four wheels...",Luggage,Rajendra Place,1
+F094,found a green keychain with bike key...,Keys,Nangloi Railway Station,9
+F095,Found maroon purse containing some cash near the ticket counter,Wallet,Rohini West,1
+F096,Found gray notebook computer containing sticker on the lid and charger,Laptop or tablet,Harkesh Nagar Okhla,1
+F097,"white sweater found, it has hood and zip near gate 2",Not sure,Sector 28 Faridabad,1
+F098,dark red wildcraft purse found in the lift@@,Not sure,Sant Surdas,3
+F099,"METALLIC BILLFOLD FOUND, IT HAS ZIPPER POCKET",Wallet,Vidhan Sabha,12
+F100,dark red hidesign billfold found,Wallet,ESI Basaidarapur,0
+F101,FOUND YELLOW CARD HOLDER CONTAINING ID CARD AND SOME CASH ON THE PLATFORM,Wallet,Rajiv Chowk,12
+F102,"red Titan bracelet found on seat, scratched glass and leather strap",Watch or jewellery,Shyam Park,1
+F103,Found a white Acer laptop with charger,Laptop or tablet,Hauz Khas,2
+F104,"metallic id card found on seat, plastic holder and college name printed",ID or metro card,HUDA City Centre,5
+F105,"dark red tiffin box found, it has food inside and two compartments",Bottle or tiffin,Karkarduma Court,7
+F106,Found a pink wristwatch with round dial...,Watch or jewellery,Nehru Place,5
+F107,Someone left a brown card holder having college ID in the lift...,Wallet,Jamia Millia Islamia,10
+F108,found a navy water bottle with blue lid,Bottle or tiffin,Inderlok,2
+F109,"RED FLASK FOUND ON SEAT, STEEL BODY AND TWO COMPARTMENTS!!!",Bottle or tiffin,Shyam Park,5
+F110,"BLACK CAP FOUND ON SEAT, WOOLLEN AND HOOD ON THE PLATFORM",Clothing,Dwarka,8
+F111,blue keys found...,Laptop or tablet,Delhi Gate,3
+F112,"metallic bracelet found, it has scratched glass",Watch or jewellery,Nehru Place,4
+F113,Someone left a grey file having certificates and exam papers,Books or documents,Kanhaiya Nagar,5
+F114,Found a brown Asus laptop,Laptop or tablet,Noida City Centre,4
+F115,white folding umbrella found,Umbrella,Noida Sector 16,7
+F116,FOUND A BROWN BOOK WITH HANDWRITTEN NOTES,Books or documents,Botanical Garden,6
+F117,Found green keys containing house keys and three keys,Keys,Kalkaji Mandir,14
+F118,"pink wireless earbuds found on seat, left earbud only and scratched case...",Earphones,Major Mohit Sharma,2
+F119,Found white Anker power bank containing type C cable and 01000 mAh,Charger or power bank,Central Secretariat,5
+F120,Found blue Hidesign purse containing zipper pocket,Wallet,Peeragarhi,5
+F121,"navy dupatta found, it has woollen and label inside in the women's coach #urgent",Clothing,South Extension,2
+F122,FOUND A METALLIC BOAT WIRELESS EARBUDS,Earphones,Shakurpur,0
+F123,"GRAY MOBILE FOUND, IT HAS LOCK SCREEN PHOTO #urgent",Not sure,Tagore Garden,4
+F124,Someone  left a black backpack having office files #urgent,Not sure,Kalindi Kunj,8
+F125,"METALLIC  ONEPLUS MOBILE FONUD, IT HAS STICKER ON THE BACK",Phone,IFFCO Chowk,3
+F126,"Picked up a blue Safari bag, laptop inside",Bag,Kashmere Gate,4
+F127,Someone left a green folding umbrella having broken rib and wooden handle,Umbrella,Bahadurgarh City,9
+F128,Found a red tablet near gate 2,Laptop or tablet,Shakurpur,0
+F129,Someone left a navy scarf having pocket and stripes...,Clothing,Dwarka Sector 21,14
+F130,Found a yellow wristwatch near the escalator,Watch or jewellery,Mayapuri,5
+F131,Someone left a blue folding umbrella having broken rib and wooden handle@@,Umbrella,IIT Delhi,5
+F132,Found silver umbrella containing floral print,Umbrella,Lal Qila,6
+F133,"PICKED  UP A WHITE VIVO PHONE, BLACK COVER AND RING HOLDER ON THE TRAIN",Phone,Delhi Gate,2
+F134,yellow lunch box found,Bottle or tiffin,Badkal Mor,3
+F135,GREEN  WATER BOTTLE FOUND,Bottle or tiffin,Shakurpur,3
+F136,"BLUE IPHONE CELL PHONE FOUND, IT HAS LOCK SCREEN PHOTO",Phone,Shastri Park,7
+F137,green mobile found,Not sure,Rajouri Garden,3
+F138,"Picked up a blue wireless earbuds, left earbud only",Earphones,Azadpur,4
+F139,"blue Ray-Ban spectacles found, it has black frame",Glasses,Netaji Subhash Place,3
+F140,Found red lunch box containing two compartments near the stairs,Bottle or tiffin,Arthala,6
+F141,Found yellow watch containing round dial and digital display near the ticket counter,Watch or jewellery,New Ashok Nagar,2
+F142,found a yellow laptop bag #urgent,Bag,Welcome,11
+F143,"dark  blue card holder found on seat, plastic holder",Not sure,Noida City Centre,3
+F144,"picked up a red wireless earbuds, scratched case and wired cable in the last coach",Earphones,Neelam Chowk Ajronda,4
+F145,Found blue wireless earbuds containing wired cable and left earbud only,Earphones,Karol Bagh,9
+F146,power bank found,Charger or power bank,Madipur,9
+F147,Someone left a red Tupperware lunch box having blue lid and steel body,Bottle or tiffin,Sultanpur,4
+F148,Found gray wristwatch containing digital display,Watch or jewellery,JLN Stadium,4
+F149,"Picked up a navy laptop, charger and college name sticker",Laptop or tablet,Lok Kalyan Marg,9
+F150,"Picked up a green Apple notebook computer, scratches",Laptop or tablet,Punjabi Bagh,12
+F151,Found blue backpack containing two zips!!!,Bag,Trilokpuri Sanjay Lake,0
+F152,Someone left a yellow charger having black adapter in the lift,Charger or power bank,Rohini West,0
+F153,Found a pink laptop,Laptop or tablet,Mandi House,3
+F154,Someone left a brown glasses having cloth pouch and hard case in the lift,Glasses,Shivaji Park,5
+F155,GREEN JACKET FOUND,Clothing,Central Secretariat,0
+F156,black umbrella found,Umbrella,Patel Nagar,0
+F157,"dark red notebook computer found on seat, college name sticker",Laptop or tablet,Jahangirpuri,7
+F158,"GRAY KEY BUNCH FOUND, IT HAS BIKE KEY AND SMALL TOY CHARM NEAR THE SECURITY CHECK",Keys,Lajpat Nagar,0
+F159,"Picked up a metallic ID card, photo ID and blue lanyard",ID or metro card,Kalkaji Mandir,1
+F160,found a billfold,Wallet,Saket,0
+F161,Found a brown glasses with blue frame,Glasses,JLN Stadium,6
+F162,Someone left a pink watch having scratched glass,Watch or jewellery,Badarpur Border,7
+F163,Someone left a blue Cello tiffin box having food inside and steel body,Bottle or tiffin,Lal Qila,1
+F164,"Picked up a red JBL headphones, wired cable and scratched case near the stairs",Earphones,Dwarka Sector 21,2
+F165,green lunch box found,Bottle or tiffin,Keshav Puram,0
+F166,Found blue charger containing white cable and black adapter,Charger or power bank,Ghevra,8
+F167,grey  Fastrack purse found,Wallet,Golf Course,9
+F168,"Picked up a yellow eyeglasses, round lens and cloth pouch",Glasses,East Azad Nagar,4
+F169,found gray backpack containing two zips and laptop inside@@,Bag,HUDA City Centre,6
+F170,"Picked up a navy ID card, photo ID and college name printed",ID or metro card,Patel Chowk,3
+F171,"Picked up a red scarf, hood in the women's coach",Clothing,Okhla Bird Sanctuary,1
+F172,Found navy Ambrane power bank containing 10000 mAh near the stairs,Charger or power bank,Kirti Nagar,0
+F173,"blue card holder found on seat, lanyard",ID or metro card,Welcome,5
+F174,metallic Sony headphones found in the women's coach,Earphones,Nangloi Railway Station,4
+F175,Found a pink earbuds on a seat,Not sure,Delhi Aerocity,2
+F176,yellow tote bag found in the women's coach...,Bag,Botanical Garden,1
+F177,"Picked up a navy backpack, water bottle",Bag,Lajpat Nagar,7
+F178,"white Mi power bank found on seat, black adapter on a seat",Charger or power bank,Delhi Aerocity,5
+F179,"PICKED UP A RED ANKER CHARGING CABLE, WHITE CABLE ON THE PLATFORM",Charger or power bank,Vishwavidyalaya,1
+F180,Someone left a blue water bottle having steel body near the escalator...,Bottle or tiffin,Dwarka Sector 21,7
+F181,Found a blue earbuds in the women's coach!!!,Earphones,Lajpat Nagar,0
+F182,Found a red Sony earphones with left earbud only on a seat!!,Earphones,Shyam Park,10
+F183,SOMEONE LEFT A BLUE TUPPERWARE WATER BOTTLE HAVING STEEL BODY,Not sure,Kashmere Gate,13
+F184,"picked up a green suitcase, four wheels near the security check",Luggage,Hauz Khas,1
+F185,"brown  Wildcraft purse found, it has driving licence and ID card",Wallet,Shadipur,3
+F186,Found a dark blue wireless earbuds with wired cable,Earphones,Mayur Vihar-I,6
+F187,found dark blue safari bag containing office files,Bag,Mayur Vihar-I,0
+F188,Found navy charging cable containing black adapter,Charger or power bank,Dwarka Sector 13,1
+F189,Found black keychain containing red tag,Keys,Kirti Nagar,3
+F190,"metallic Skybags bag found on seat, umbrella in the side pocket@@",Bag,Mandi House,5
+F191,Found a tablet,Laptop or tablet,Malviya Nagar,2
+F192,lunch box found,Bottle or tiffin,Mandi House,1
+F193,"yellow  Safari handbag found on seat, two zips",Bag,Jamia Millia Islamia,7
+F194,Someone left a silver charger having black adapter near the stairs@@,Charger or power bank,Old Faridabad,0
+F195,green charger found,Charger or power bank,ESI Basaidarapur,9
+F196,DRAK BLUE DOCUMENT FOLDER FOUND@@,Books or documents,Delhi Gate,9
+F197,Someone left a white Fastrack card holder having zipper pocket and driving licence in the lift,Wallet,Noida City Centre,14
+F198,Found dark blue Puma purse containing metro card,Wallet,MG Road,1
+F199,Someone left a silver duffle bag having name tag,Luggage,Shaheed Sthal,4
+F200,"pink office ID found, it has office logo and photo ID near the security check",ID or metro card,Udyog Bhawan,8
+F201,"red card holder found on seat, college name printed and lanyard on the train",ID or metro card,Chhatarpur,1
+F202,Found a silver billfold with some cash,Wallet,Mayur Vihar-I,5
+F203,Found  a yellow hedaphones with black case,Wallet,Nangloi,3
+F204,"red keys found on seat, remote lock",Keys,Sadar Bazar Cantonment,7
+F205,FOUND METALLIC VIP SUITCASE CONTAINING NAME TAG IN THE LIFT,Luggage,Vishwavidyalaya,3
+F206,"Picked up a grey umbrella, plastic cover and floral print",Umbrella,Central Secretariat,0
+F207,BLACK  WIRELESS EARBUDS FOUND,Earphones,Supreme Court,1
+F208,"white lunch box found on seat, blue lid and food inside",Bottle or tiffin,Azadpur,1
+F209,found a brown folder with handwritten notes and exam papers,Books or documents,Dwarka Sector 21,2
+F210,Someone left a black dupatta having stripes and woollen,Clothing,Rajouri Garden,4
+F211,"dark red laptop found, it has college name sticker",Laptop or tablet,IGI Airport,1
+F212,"picked up a pink laptop, college name sticker near the stairs",Laptop or tablet,Central Secretariat,4
+F213,"pnik Puma wallet found on seat, debit cards",Wallet,Jaffrabad,4
+F214,"Picked up a dark red Redmi phone, black ocver on the platform...",Phone,Lajpat Nagar,4
+F215,found silver wildcraft wallet containing metro card and debit cards,Wallet,Tughlakabad,1
+F216,navy handbag found,Bag,New Delhi,3
+F217,FOUND A NAVY FLASK WITH BLUE LID AND STEEL BODY,Bottle or tiffin,Kashmere Gate,14
+F218,found a dark red billfold with driving licenec on the platform,Wallet,Saket,0
+F219,Found a black notebook with exam papers near the security check,Books or documents,Mansarovar Park,12
+F220,found a red vivo smartphone,Phone,Dwarka Sector 21,0
+F221,"picked up a maroon phone, balck cover!!!",Phone,Jahangirpuri,1
+F222,"GRAY PHONE FOUND ON SEAT, LOCK SCREEN PHOTO ON THE PLATFORM",Phone,Chhatarpur,0
+F223,Found a white cap with hood and zip,Clothing,New Delhi,10
+F224,Found yellow mobile containing black cover in the lift,Phone,Dwarka Sector 12,5
+F225,"PICKED UP A GREEN TIFFIN BOX, FOOD INSIDE ON THE TRAIN!!!",Bottle or tiffin,Mansarovar Park,0
+F226,Found dark red Apple notebook computer containing black sleeve,Laptop or tablet,IGI Airport,2
+F227,"metallic  laptop found on seat, charger in the last coach!!",Laptop or tablet,Rajiv Chowk,4
+F228,"dark blue Safari bag found, it has keychain on the zip",Bag,Mayur Vihar Extension,7
+F229,white suitcase found in the alst coach,Charger or power bank,Lajpat Nagar,0
+F230,found a red sony wireless earbuds,Earphones,Noida Sector 16,2
+F231,"brown umbrella found, it has floral print and broken rib in the last coach",Umbrella,New Delhi,7
+F232,Someone left a red book having handwritten notes,Books or documents,IFFCO Chowk,2
+F233,Someone left a silver Titan watch having leather strap near gate 2,Watch or jewellery,Raj Bagh,0
+F234,"Picked up a green jacket, zip on a seat",Clothing,Civil Lines,3
+F235,Found  yellow purse containing ID card near gate 2 #urgent,Bag,Durgabai Deshmukh South Campus,0
+F236,"white Skybags backpack found on seat, notebooks",Bag,Noida Sector 16,6
+F237,pikn Mi charger found,Charger or power bank,Mundka,2
+F238,"red duffle bag found, it has hard shell",Luggage,HUDA City Centre,12
+F239,someone left a brown duffle bag having four wheels and combination lock,Luggage,Keshav Puram,1
+F240,someone left a white water bottle having steel body and two compartments,Bottle or tiffin,Model Town,11
+F241,Found red keys containing house keys and small toy charm in the lift!!,Keys,Palam,5
+F242,Found yellow Tupperware flask containing steel body@@,Bottle or tiffin,Kailash Colony,13
+F243,"white Asus notebook computer found, it has black sleeve and charger",Laptop or tablet,Dilli Haat INA,4
+F244,black vivo phone found in the last coach,Phone,Arjan Garh,10
+F245,"metallic folding umbrella found on seat, wodoen handle@@",Umbrella,Raj Bagh,9
+F246,dark red tablet found,Laptop or tablet,Rajiv Chowk,0
+F247,Found yellow charger containing 10000 mAh and type C cable!!!,Charger or power bank,Dwarka Mor,3
+F248,"yellow Sony headphones found on seat, left earbud only",Not sure,Rajouri Garden,0
+F249,"Picked up a blue wireless earbuds, wired cable in the lift",Not sure,Naraina Vihar,3
+F250,found a white water bottle with food inside!!,Not sure,Vidhan Sabha,0
+F251,"brown umbrella found, it has broken rib near the security check",Umbrella,Uttam Nagar East,7
+F252,metallic water bottle found,Bottle or tiffin,Paschim Vihar West,13
+F253,Found a silver umbrella with wooden handle,Umbrella,Barakhamba Road,6
+F254,"maroon card holder found, it has blue lanayrd near the security check",ID or metro card,Raj Bagh,1
+F255,"green notebook computer found, it has college name sticker and charger near the escalator",Laptop or tablet,Dhaula Kuan,6
+F256,Found a metallic bracelet,Watch or jewellery,Janakpuri West,1
+F257,found a brown vivo cell phone with wallet case,Phone,Sir M Vishweshwaraiah Moti Bagh,0
+F258,"green lunch box found on seat, insulated",Not sure,Tikri Kalan,10
+F259,"Picked up a gray notebook, rubber band",Books or documents,Dwarka Sector 8,0
+F260,navy wallet found in the alst coach,Wallet,Dilli Haat INA,0
+F261,bracelet found,Watch or jewellery,Khan Market,0
+F262,Someone left a grey sunglasses having cloth pouch and blue frame in the women's coach,Glasses,Delhi Cantt,5
+F263,FOUND A GRAY BILLFOLD WITH METRO CARD,Not sure,NHPC Chowk,0
+F264,Found  a green trolley bag with hard shell,Luggage,Central Secretariat,4
+F265,found dark blue titan watch containing metal strap near the ticket counter,Watch or jewellery,Seelampur,1
+F266,Someone  left a metallic wallet having bank cards in the lift,Wallet,HUDA City Centre,4
+F267,Found a metallic key bunch with car key and red tag!!,Keys,Jasola Vihar Shaheen Bagh,0
+F268,Found a dark blue billfold,Wallet,Hauz Khas,3
+F269,Found a pink tablet with charger,Laptop or tablet,Yamuna Bank,0
+F270,"brown smartphone found on seat, wallet case #urgent",Phone,Dwarka,1
+F271,FOUND A BLUE SUITACSE WITH COMBINATION LOCK,Luggage,Malviya Nagar,6
+F272,found a silver casio smartwatch with round dial,Not sure,Rajiv Chowk,5
+F273,"black Vivo phone found on seat, ring holder",Phone,Green Park,12
+F274,Found a grey cap with label inside,Not sure,Madipur,1
+F275,Found green billfold containing college ID,Wallet,Rajdhani Park,5
+F276,someone left a yellow folder having certificates and rubber band...,Watch or jewellery,Kashmere Gate,2
+F277,"maroon  trolley bag found, it has combination lock and belt strap",Luggage,Noida Sector 18,0
+F278,grey  headphones found,Laptop or tablet,Pratap Nagar,6
+F279,"Picked up a dark blue billfold, some cash near the security check",Wallet,Shalimar Bagh,6
+F280,Found a maroon wristwatch with round dial in the last coach,Watch or jewellery,HUDA City Centre,1
+F281,"Picked up a brown Ray-Ban sunglasses, blue frame on the platform",Glasses,Anand Vihar,1
+F282,Someone left a metallic Realme cell phone having sticker on the back and ring holder near the escalator #urgent,Phone,Indraprastha,5
+F283,someone left a navy headphones having left earbud only,Earphones,Kalindi Kunj,14
+F284,"dark red Fastrack card holder found on seat, debit cards near the ticket counter",Wallet,Raja Nahar Singh,0
+F285,FOUND A WHITE OFFICE ID ON A SEAT!!,ID or metro card,Kalkaji Mandir,1
+F286,Fonud a gray cell phone,Phone,Dwarka Sector 13,2
+F287,pink wireless earbuds found,Earphones,Netaji Subhash Place,13
+F288,Someone left a yellow charging cable having black adapter,Charger or power bank,Paschim Vihar West,6
+F289,Found a yellow student ID with lanyard and college name printed near the stairs,ID or metro card,Dwarka Sector 11,2
+F290,Found a grey Samsung mobile,Not sure,Central Secretariat,6
+F291,"black earbuds found on seat, wired cable #urgent",Earphones,IGI Airport,6
+F292,"BLACK STUDENT ID FOUND ON SEAT, PLASTIC HOLDER!!",ID or metro card,Panchsheel Park,12
+F293,brown headphones found,Earphones,Rohini East,9
+F294,"Picked up a navy tiffin box, blue lid near the ticket counter",Bottle or tiffin,Azadpur,10
+F295,SOMEONE LEFT A METALLIC RAY-BAN EYEGLASSES HAVING HARD CASE!!!,Glasses,Samaypur Badli,12
+F296,"Picked up a grey trolley bag, belt strap near the ticket counter!!",Not sure,Raja Nahar Singh,6
+F297,Someone left a red Milton lunch box having food inside near gate 2,Bottle or tiffin,Shaheed Sthal,6
+F298,"gray keys found, it has bike key and red tag@@",Not sure,RK Ashram Marg,4
+F299,FOUND A YELLOW PUMA PURSE WITH BANK CARDS IN THE WOMEN'S COACH,Wallet,Mayur Vihar Pocket 1,2
+F300,found a black mi charger with type c cable and 10000 mah,Charger or power bank,RK Puram,0
+F301,dark red Oppo phone found,Not sure,Noida City Centre,6
+F302,Found a blue laptop bag near the security check,Bag,Rajouri Garden,1
+F303,"gray Hidesign purse found on seat, debit cards and metro card",Wallet,Ghevra,2
+F304,"silver Lenovo laptop found, it has sticker on the lid and scratches",Laptop or tablet,Dilshad Garden,13
+F305,Someone left a pink Apple laptop having college anme sticker and scratches near the security check,Laptop or tablet,Barakhamba Road,12
+F306,found a red keys,Keys,Netaji Subhash Place,2
+F307,Found white water bottle containing two compartments,Bottle or tiffin,Jhilmil,8
+F308,Found metallic power bank containing black adapter and 10000 mAh near the stairs,Charger or power bank,HUDA City Centre,10
+F309,"PICKED UP A SILVER POWER BANK, WHITE CABLE",Charger or power bank,Shyam Park,6
+F310,Found white folding umbrella containing owoden handle,Umbrella,Govind Puri,10
+F311,Someone left a blue tablet having charger and sticker on the lid,Laptop or tablet,Seelampur,7
+F312,Found black book containing rubber band,Books or documents,Okhla NSIC,6
+F313,Found a blue bag in the women's coach!!!,Bag,Central Secretariat,6
+F314,"Picked up a white Milton water bottle, steel body and blue lid on a seat",Bottle or tiffin,Tikri Border,6
+F315,Found a dark red suitcase with name tag,Luggage,Sarojini Nagar,6
+F316,"navy watch found, it has metal strap",Watch or jewellery,Dwarka Sector 10,14
+F317,Found  brown card holder containing driving licence and ID card!!!,Wallet,Sant Surdas,6
+F318,"Picked up a white shawl, pocket and zip@@",Clothing,Neelam Chowk Ajronda,0
+F319,"green key ring found on seat, car key",Bottle or tiffin,Jangpura,11
+F320,"NAVY FOLDING UMBRELLA FOUND, IT HAS FLORAL PRINT",Umbrella,Sant Surdas,12
+F321,Found green file containing rubber badn,Books or documents,Sarojini Nagar,1
+F322,Found white Vivo mobile containing black cover and ring holder near the ticket counter,Phone,Raja Nahar Singh,7
+F323,"dark red bag found, it has office files and tiffin box@@",Bag,Johri Enclave,6
+F324,Someone left a brown umbrella having broken rib and floral print near the security check,Not sure,Terminal 1 IGI Airport,14
+F325,"picked up a dark red tupperware tiffin box, two compartments!!!",Bottle or tiffin,Majlis Park,2
+F326,"Picked up a green Puma bag, two zips and office files near the stairs",Glasses,GTB Nagar,8
+F327,Found a black folding umbrella on a seat,Umbrella,Dwarka Sector 12,6
+F328,"picked up a blue water bottle, blue lid and food inside",Bottle or tiffin,Vidhan Sabha,11
+F329,"dark red keys found, it has red tag",Keys,New Delhi,8
+F330,found a gray oneplus cell phone with lock screen photo,Phone,Dwarka Sector 14,0
+F331,found a grey spectacles wtih black frame and hard case on the platform,Glasses,Peeragarhi,6
+F332,oFund a gray tablet,Laptop or tablet,Kirti Nagar,8
+F333,"Pickde up a grey notebook computer, sticker on the lid near the security check #urgent",Laptop or tablet,Kashmere Gate,12
+F334,"Picked up a white power bank, 10000 mAh and white cable in the last coach",Charger or power bank,Rajouri Garden,4
+F335,Someone left a metallic Fossil smartwatch having scratched glass and leather strap,Not sure,Sarai Kale Khan Nizamuddin,10
+F336,pink  mobile found near the ticket counter,Phone,Uttam Nagar West,5
+F337,"Picked  up a maroon card holder, debit cards",Not sure,Shahdara,0
+F338,Found a key bunch,Keys,Shadipur,2
+F339,Found a pink book with exam papers and handwritten notes,Books or documents,Krishna Nagar,5
+F340,brown trolley bag found,Luggage,Brigadier Hoshiyar Singh,4
+F341,found red office id containing college name printed,ID or metro card,Dwarka Sector 21,10
+F342,"Picked up a blue folding umbrella, broken rib and floral print near the escalator...",Umbrella,Rajouri Garden,2
+F343,Found a sugnlasses,Not sure,Mayur Vihar-I,8
+F344,"white laptop bag found on seat, water bottle in the last coach",Bag,Dwarka Sector 12,4
+F345,found red book containing certificates and exam papers #urgent,Not sure,Jamia Millia Islamia,13
+F346,"blue smartwatch found, it has digital display and metal strap",Watch or jewellery,Maujpur Babarpur,9
+F347,Found a dark red headphones with scratched case and left earbud only in the last coach,Earphones,Akshardham,1
+F348,red folding umbrella fuond,Umbrella,Welcome,3
+F349,Found a maroon laptop with college name sticker,Laptop or tablet,East Vinod Nagar,13
+F350,"red billfold found, it has college ID",Wallet,Kashmere Gate,11
+F351,Found a red Realme power bank,Charger or power bank,Harkesh Nagar Okhla,0
+F352,Found a white bracelet in the women's coach!!!,Watch or jewellery,Kashmere Gate,4
+F353,"YELLOW BAG FOUND ON SEAT, KEYCHAIN ON THE ZIP AND OFFICE FILES...",Bag,Rohini West,1
+F354,"ipcked up a blue fastrack card holder, debit cards near the ticket counter!!",Wallet,Mandi House,1
+F355,"green watch found on seat, scratched glass and metal strap",Watch or jewellery,Jasola Vihar Shaheen Bagh,7
+F356,"navy mobile found on seat, transparent case near the stairs!!",Not sure,Dilli Haat INA,0
+F357,oFund a brown Titan bracelet with metal strap,Watch or jewellery,Netaji Subhash Place,9
+F358,Found brown laptop containing charger and college name sticker near the ticket counter,Laptop or tablet,Vidhan Sabha,10
+F359,Someone left a brown wristwatch having leather strap,Watch or jewellery,Karkarduma Court,6
+F360,Someone left a silver flask having blue lid and two compartments near the security check@@,Bottle or tiffin,Dabri Mor,4
+F361,Someone left a dark blue eyeglasses having blue fraem,Glasses,Mandi House,14
+F362,Found red jacket containing hood,Clothing,Central Secretariat,6
+F363,Found  a red Ray-Ban glasses with round lens,Glasses,Munirka,0
+F364,found a black backpack with tiffin box and keychain on the zip,Bag,Sadar Bazar Cantonment,3
+F365,Someone left a maroon key bunch having house keys,Keys,Noida City Centre,3
+F366,wallet found,Wallet,Shastri Nagar,11
+F367,yellow  document folder found,Books or documents,Jama Masjid,10
+F368,"Picked up a blue jacket, zip and label inside",Clothing,ITO,0
+F369,found green folding umbrella containing automatic and wooden handle,Umbrella,Mayur Vihar-I,0
+F370,"pink  earbuds found on seat, wired cable",Earphones,Janakpuri West,4
+F371,"Picked up a red laptop, scratches and charger",Laptop or tablet,Old Faridabad,11
+F372,Found a yellow Vincent Chase glasses with cloth pouch,Glasses,Rajiv Chowk,0
+F373,"gray lunch box found, it has insulated",Bottle or tiffin,Supreme Court,4
+F374,Someone left a black Realme power bank having type C cable and white cable,Charger or power bank,Kalindi Kunj,5
+F375,"Picked up a white Ambrane power bank, type C cable",Charger or power bank,Kashmere Gate,0
+F376,"PICKED  UP A RED BILLFOLD, DRIVING LICENCE AND ZIPPER POCKET",Wallet,Vidhan Sabha,13
+F377,Found  pink charging cable containing white cabel and type C cable,Charger or power bank,New Delhi,4
+F378,white bracelet ofund,Watch or jewellery,Harkesh Nagar Okhla,3
+F379,Found a wihte charger with black adapter on the platform,Charger or power bank,Rajouri Garden,3
+F380,"pink wildcraft billfold found on seat, bank cards and id card",Wallet,Dwarka Sector 11,3
+F381,Found black Dell laptop containing scratchse!!,Laptop or tablet,Maharaja Surajmal Stadium,1
+F382,found a charging cable near the ticket counter,Charger or power bank,Mundka,5
+F383,Found a white ID card,ID or metro card,Chawri Bazar,1
+F384,Found a grey folding umbrella with broken rib,Umbrella,Patel Chowk,13
+F385,Found a yellow Apple earphones with black case,Earphones,Pandit Shree Ram Sharma,12
+F386,"white headphones found, it has left earbud only",Earphones,Anand Vihar,14
+F387,Someone left a brown Wildcraft purse having college ID and ID card,Wallet,Netaji Subhash Place,0
+F388,"Picked up a blue power bank, 10000 mAh",Charger or power bank,Hauz Khas,8
+F389,dark blue book found,Books or documents,Dwarka Sector 21,0
+F390,green dell laptop found,Laptop or tablet,Kirti Nagar,2
+F391,"picked up a navy cell phone, transparent case",Phone,Subhash Nagar,2
+F392,Found a silver billfold,Wallet,Jasola Vihar Shaheen Bagh,10
+F393,Found pink Oppo cell phone containing transparent case and wallet case,Phone,Bahadurgarh City,0
+F394,Someone left a pink Lenovo notebook computer having sticker on the lid,Laptop or tablet,Lok Kalyan Marg,2
+F395,Found a brown student ID with office logo,ID or metro card,Dilli Haat INA,8
+F396,"Picked up a red cap, stripes",Books or documents,Mayur Vihar-I,1
+F397,someone left a blue laptop having sticker on the lid on a seat,Laptop or tablet,Greater Kailash,1
+F398,Found a metallic charging cable@@,Charger or power bank,Malviya Nagar,6
+F399,Someone left a dark blue bracelet having scratched glass and leather strap,Not sure,Dhaula Kuan,2
+F400,"Picked up a red Milton flask, two compartments and insulated in the lift!!!",Bottle or tiffin,Central Secretariat,13
+F401,"Picked up a green power bank, white cable near the security check",Charger or power bank,Delhi Cantt,2
+F402,"navy flask found on seat, two compartments",Bottle or tiffin,Model Town,1
+F403,"Picked up a yellow cell phone, lock screen photo and transparent case",Phone,Hindon River,13
+F404,Found a black bracelet,Watch or jewellery,Tughlakabad,8
+F405,"YELLOW TABLET FOUND ON SEAT, CHARGER AND STICKER ON THE LID NEAR THE ESCALATOR",Laptop or tablet,Inderlok,3
+F406,"yellow phone found, it has wallet case and stikcer on the back near the ticket counter",Phone,Ashram,6
+F407,"grey sling bag foudn on seat, notebooks and tiffin box",Bag,Inderlok,3
+F408,Foudn a grey Skybags sling bag with umbrella in the side pocket near the stairs!!,Bag,Karkarduma,1
+F409,found a dark red notebook with exam papers and handwritten notes,Books or documents,Peeragarhi,3
+F410,Someone left a red student ID having college name printed in the women's coach,ID or metro card,Hauz Khas,1
+F411,pink Lenovo laptop found,Not sure,Central Secretariat,2
+F412,"yellow earbuds found, it has wired cable and left earbud only",Earphones,Sarai,9
+F413,Someone left a metallic duffle bag having name tag!!,Luggage,Guru Dronacharya,5
+F414,"PICKED UP A WHITE FOLDING UMBRELLA, PLASTIC COVER AND FLORAL PRINT",Umbrella,Maujpur Babarpur,3
+F415,Someone  left a red Noise wristwatch having leather strap...,Watch or jewellery,Dilli Haat INA,7
+F416,Found a white purse with driving licence and college ID,Wallet,Jama Masjid,0
+F417,FOUND A DARK RED DUFFLE BAG NEAR GATE 2...,Luggage,Paschim Vihar East,7
+F418,Found white Casio watch containing leather strap #urgent,Watch or jewellery,ESI Basaidarapur,6
+F419,Someone left a red water bottle having food inside and steel body,Bottle or tiffin,Patel Chowk,12
+F420,Someone left a metallic spectacles having blue frame!!,Glasses,Noida City Centre,0
+F421,Found green keychain containing small toy charm and remote lock #urgent,Keys,Sikandarpur,7
+F422,Someone left a gray glasses having black frame and cloth pouch,Glasses,Sarita Vihar,8
+F423,found a pink headphones with wired cable and left earbud only,Not sure,Jor Bagh,0
+F424,"brown spectacles found on seat, round lens and blue frame!!",Glasses,Mayur Vihar-I,4
+F425,ofund a dark red notebook computer with charger and sticker on the lid,Laptop or tablet,Khan Market,11
+F426,"black Hidesign purse found, it has ID card",Wallet,Keshav Puram,3
+F427,gray smartwatch found,Watch or jewellery,Kanhaiya Nagar,0
+F428,someone left a red earbuds having charging case,Earphones,Greater Kailash,2
+F429,Found a red purse iwth driving licence and college ID,Wallet,HUDA City Centre,6
+F430,someone left a silver water bottle having insulated and food inside in the women's coach!!,Bottle or tiffin,Maharaja Surajmal Stadium,0
+F431,Someone left a yellow boAt earbuds having scratched case,Earphones,Noida City Centre,1
+F432,"silver  charger found on seat, 10000 mAh",Charger or power bank,Karkarduma Court,11
+F433,"yellow billfold found, it has metro card and bank cards...",Wallet,Vidhan Sabha,9
+F434,Someone left a gray Sony earphones having wired cable in the women's coach,Earphones,Dilli Haat INA,2
+F435,Someone left a white Puma wallet having zipper pocket and metro card near the security check,Wallet,Botanical Garden,11
+F436,someone left a blue sony earbuds having black case,Earphones,Trilokpuri Sanjay Lake,3
+F437,"black  Tupperware flask found, it has steel body@@",Bottle or tiffin,Dwarka Sector 9,6
+F438,Found a document folder near the security check,Books or documents,Botanical Garden,12
+F439,FOUND BLACK UMBRELLA CONTAINING PLASTIC COVER,Umbrella,HUDA City Centre,0
+F440,Found a green phone wtih ring holder!!!,Phone,Mundka,6
+F441,found a gray oppo mobile!!!,Phone,Gokulpuri,2
+F442,found red sling bag containing keychain on the zip,Bag,AIIMS,3
+F443,metallic id card found on the train,ID or metro card,Dwarka Sector 11,0
+F444,"metallic tablet found, it has scratches@@",Laptop or tablet,IGI Airport,5
+F445,"Picked up a green keys, remote lock and small toy charm",Keys,Durgabai Deshmukh South Campus,2
+F446,WHITE  MI CHARGER FOUND!!!,Charger or power bank,Hauz Khas,5
+F447,Someone left a grey suitcase having name tag,Luggage,Netaji Subhash Place,10
+F448,"PICKED  UP A YELLOW TABLET, BLACK SLEEVE AND SCRATCHES!!",Laptop or tablet,Shastri Park,11
+F449,SOMEONE LEFT A RED CHARGER HAVING BLACK ADAPTER IN THE WOMEN'S COACH,Charger or power bank,ESI Basaidarapur,2
+F450,"blue smartwatch found, it has scratched glass #urgent",Not sure,Saket,0
+F451,FOUND A GREEN PHONE WITH BLACK COVER IN THE LIFT,Phone,Ramesh Nagar,5
+F452,BLUE REALME EARBUDS FOUND!!!,Earphones,Moti Nagar,11
+F453,"red jacket found on seat, hood",Clothing,Paschim Vihar West,0
+F454,"pink Acer tablet found on seat, sticker on the lid #urgent",Laptop or tablet,Inderlok,13
+F455,Found green charger containing white cable,Charger or power bank,Ashok Park Main,4
+F456,bracelet foudn,Watch or jewellery,Hauz Khas,12
+F457,"Picked up a brown earbuds, black case near the stairs",Earphones,Netaji Subhash Place,9
+F458,found brown scarf containing hood...,Clothing,Chandni Chowk,1
+F459,Found a gray purse in the lift!!,Wallet,Rajouri Garden,4
+F460,Found a pink spectacles with lbue frame,Not sure,Delhi Gate,4
+F461,"metallic notebook computer found on seat, college name sticker and charger near the escalator",Laptop or tablet,New Delhi,4
+F462,red tiffin box found near the ticket counter,Bottle or tiffin,Sector 28 Faridabad,3
+F463,Found a grey handbag on a seat,Bag,Noida Sector 18,0
+F464,"red suitcase found on seat, name tag on the platform!!",Luggage,Civil Lines,4
+F465,Someone left a blue charger having white cable and black adapter,Charger or power bank,Dwarka,10
+F466,"Picked up a white earphones, scratched case and left earbud only",Earphones,Dwarka,3
+F467,Found a red earphones,Bag,Mandawali,1
+F468,Found yellow Fastrack wallet containing driving licence on the train,Wallet,Jangpura,1
+F469,Someone left a maroon trolley bag having name tag near the security check,Luggage,Welcome,3
+F470,Found metallic Dell laptop containing scratches and sticker on the lid,Not sure,HUDA City Centre,12
+F471,Found red Skybags suitcase containing hard hsell and belt strap!!,Luggage,Barakhamba Road,3
+F472,"white  wallet found, it has bank cards and driving licence",Wallet,Dwarka Sector 21,2
+F473,"black tote bag found, it has keychain on the zip and umbrella in the side pocket",Bag,Netaji Subhash Place,0
+F474,"iPcked up a metallic eyeglasses, blue frame",Glasses,Mundka,9
+F475,FOUND A DARK BLUE FLASK WITH BLUE LID,Bottle or tiffin,Netaji Subhash Place,6
+F476,brown tote bag found!!!,Bag,Noida Sector 16,2
+F477,found white charger containing white cable near the ticket counter,Charger or power bank,Welcome,4
+F478,"black Fastrack bracelet found, it has scratched glass and round dial",Watch or jewellery,Sarai Kale Khan Nizamuddin,4
+F479,"Picked  up a brown Acer tablet, sticker on the lid on the platform...",Laptop or tablet,AIIMS,5
+F480,"silver  backpack found, it has laptop inside on the platform",Bag,Saket,1
+F481,"yellow eyeglasses found, it has hard case",Glasses,Sarita Vihar,1
+F482,lbue phone found,Phone,Hauz Khas,6
+F483,maroon Safari hadnbag found in the lift,Bag,Old Faridabad,1
+F484,"black book found on seat, plastic folder and rubber band",Books or documents,Hauz Khas,2
+F485,Found blue Fossil wristwatch containing scratched glass,Watch or jewellery,Samaypur Badli,8
+F486,blue  key ring found...,Keys,Jhilmil,2
+F487,yellow ID card found,ID or metro card,Anand Vihar,12
+F488,Someone left a yellow key ring having bike key and small toy charm,Umbrella,Kashmere Gate,2
+F489,sunglasses found,Glasses,Mayur Vihar-I,3
+F490,Found a black purse with ID card and some cash in the women's coach,Wallet,Khan Market,7
+F491,Found a blue Vincent Chase spectacles on the train,Glasses,Mandawali,6
+F492,"Picked up a pink scarf, zip and label inside",Clothing,Netaji Subhash Place,0
+F493,"Picked up a dark blue trolley bag, name tag near the stairs",Luggage,Badarpur Border,1
+F494,"grey smartphone found, it has black cover near the escalator",Clothing,Mayur Vihar Extension,1
+F495,"SILVER KEYCHAIN FOUND ON SEAT, REMOTE LOCK",Keys,Uttam Nagar West,4
+F496,Found  a navy Skybags trolley bag with name tag in the last coach@@,Luggage,Kohat Enclave,10
+F497,red purse found in the lift,Wallet,Escorts Mujesar,1
+F498,"navy Sony wireless earbuds found, it has charging case and left earbud only",Earphones,Maharaja Surajmal Stadium,9
+F499,Someone left a black Tupperware flask having food inside and insulated,Bottle or tiffin,Shalimar Bagh,2
+F500,FOUND A WATCH #urgent,Watch or jewellery,New Ashok Nagar,6

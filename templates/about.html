@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}How it works | Metro Lost &amp; Found{% endblock %}
+{% block content %}
+<section class="narrow prose">
+  <h1>How the matching works</h1>
+  <p class="lead">A lost report and a found report are compared as a pair. A classifier learns, from labelled pairs, which combinations of clues usually mean "same item".</p>
+
+  <h2>The clues</h2>
+  <ul>
+    <li><strong>Words.</strong> Descriptions are lower-cased and stripped of special characters, then turned into TF-IDF vectors. Cosine similarity, word overlap and colour agreement or conflict are measured.</li>
+    <li><strong>Category.</strong> Whether both reporters chose the same category. "Not sure" counts as no information.</li>
+    <li><strong>Place.</strong> The network has {{ n_stations }} stations ({{ n_interchange }} interchanges). Distance is the number of stops on the shortest route, so a wallet handed in two stops away still scores well.</li>
+    <li><strong>Time.</strong> An item cannot be found before it was lost, and finds soon after the loss are likelier.</li>
+  </ul>
+
+  <h2>The ranking score</h2>
+  <p>Candidates are ranked by <code>S = {{ cfg.weights.model }}·P + {{ cfg.weights.text }}·C + {{ cfg.weights.location }}·L + {{ cfg.weights.time }}·T</code>, where P is the model's match probability, C the text similarity, L closeness in stops (1 at the same station, 0 at 8 or more stops) and T timing. The site shows S × 10 as a score out of 10, so 0.78 appears as 7.8. The weights were picked from six candidates on {{ 200 }} validation searches. The blended options landed within about three points of each other, so treat these weights as reasonable defaults, not optimal ones.</p>
+
+  <h2>Model comparison</h2>
+  <p>Three classifiers were trained on {{ m.n_train }} labelled pairs (80% for training and five-fold cross-validation, 20% held out for testing, split so that no item combination is on both sides). The website uses Logistic Regression, refit on all pairs.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th scope="col">Model</th><th scope="col">CV accuracy</th><th scope="col">Test accuracy</th><th scope="col">Test precision</th><th scope="col">Test recall</th><th scope="col">Test F1</th><th scope="col">Precision if 1 pair in 21 is a match</th></tr></thead>
+    <tbody>
+    {% for name in m.test %}
+      <tr><th scope="row">{{ name }}</th><td>{{ '%.3f' | format(m.cross_validation[name].accuracy) }}</td><td>{{ '%.3f' | format(m.test[name].accuracy) }}</td><td>{{ '%.3f' | format(m.test[name].precision) }}</td><td>{{ '%.3f' | format(m.test[name].recall) }}</td><td>{{ '%.3f' | format(m.test[name].f1) }}</td><td>{{ '%.2f' | format(m.precision_at_1_in_21[name]) }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <p>The last column estimates how many flagged pairs would be real matches if only one pair in 21 were a true match, as in real life. It is low, which is why the site ranks the closest candidates for a person to check and does not declare matches by itself.</p>
+  <figure><img src="{{ url_for('static', filename='img/model_comparison.png') }}" alt="Bar charts comparing accuracy, precision, recall and F1-score of the three models, in cross-validation and on the held-out test set." loading="lazy"><figcaption>Accuracy, precision, recall and F1 for the three classifiers.</figcaption></figure>
+  <figure><img src="{{ url_for('static', filename='img/confusion_matrices.png') }}" alt="Confusion matrices for the three models on the held-out test set." loading="lazy"><figcaption>Confusion matrices on the held-out pairs.</figcaption></figure>
+
+  <h2>Search test</h2>
+  <p>On 300 new lost reports, each written about an item known to be in a list of 500 found items, how often did the true item come first, and how often in the top five?</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th scope="col">Model</th><th scope="col">Model alone, rank 1</th><th scope="col">Blended score, rank 1</th><th scope="col">Blended score, top 5</th></tr></thead>
+    <tbody>
+    {% for name, r in m.retrieval.items() %}
+      <tr><th scope="row">{{ name }}</th><td>{{ '%.0f' | format(r.model_only_top1 * 100) }}%</td><td>{{ '%.0f' | format(r.blend_top1 * 100) }}%</td><td>{{ '%.0f' | format(r.blend_top5 * 100) }}%</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Limits to keep in mind</h2>
+  <ul>
+    <li>The training data is synthetic but deliberately hard: look-alike non-matches (often the same colour), pairs of similar items that text cannot separate, vague reports, colour mix-ups such as black versus navy, and wrong categories. Dates give no clue, and no item combination appears in both training and test. Matching items are still closer in place, as they would be in real life, and real reports will behave differently.</li>
+    <li>The station list is a subset typed from public line maps. Check it against the official map before real use.</li>
+    <li>Wording the model has not seen, spelling mistakes and unusual synonyms are weak spots. A stronger text model could help once real data exists.</li>
+    <li>A high score is a lead, not proof. The desk verifies ownership, so descriptions here hide numbers and email addresses, and no contact details are collected.</li>
+  </ul>
+</section>
+{% endblock %}
